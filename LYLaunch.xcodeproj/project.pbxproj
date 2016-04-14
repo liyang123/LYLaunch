@@ -15,6 +15,7 @@
 		B640D5EA1CBF4062003AF368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B640D5E81CBF4062003AF368 /* LaunchScreen.storyboard */; };
 		B640D5F51CBF4062003AF368 /* LYLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B640D5F41CBF4062003AF368 /* LYLaunchTests.m */; };
 		B640D6001CBF4062003AF368 /* LYLaunchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B640D5FF1CBF4062003AF368 /* LYLaunchUITests.m */; };
+		B640D60F1CBF4088003AF368 /* LYLaunchNaVController.m in Sources */ = {isa = PBXBuildFile; fileRef = B640D60E1CBF4088003AF368 /* LYLaunchNaVController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B640D5FB1CBF4062003AF368 /* LYLaunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYLaunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B640D5FF1CBF4062003AF368 /* LYLaunchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLaunchUITests.m; sourceTree = "<group>"; };
 		B640D6011CBF4062003AF368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B640D60D1CBF4088003AF368 /* LYLaunchNaVController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYLaunchNaVController.h; sourceTree = "<group>"; };
+		B640D60E1CBF4088003AF368 /* LYLaunchNaVController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYLaunchNaVController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B640D5DE1CBF4062003AF368 /* AppDelegate.m */,
 				B640D5E01CBF4062003AF368 /* ViewController.h */,
 				B640D5E11CBF4062003AF368 /* ViewController.m */,
+				B640D60D1CBF4088003AF368 /* LYLaunchNaVController.h */,
+				B640D60E1CBF4088003AF368 /* LYLaunchNaVController.m */,
 				B640D5E31CBF4062003AF368 /* Main.storyboard */,
 				B640D5E61CBF4062003AF368 /* Assets.xcassets */,
 				B640D5E81CBF4062003AF368 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				B640D5E21CBF4062003AF368 /* ViewController.m in Sources */,
 				B640D5DF1CBF4062003AF368 /* AppDelegate.m in Sources */,
 				B640D5DC1CBF4062003AF368 /* main.m in Sources */,
+				B640D60F1CBF4088003AF368 /* LYLaunchNaVController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
